@@ -13,7 +13,7 @@ var config_data = `
       "maxSize": 5,
       "required": "true"
     },
-    { "name": "Event",
+    { "name": "Green Country Regional",
       "code": "e",
       "gsCol": "event",
       "type": "event",
@@ -62,14 +62,6 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
-    { "name": "Auto Start Position",
-      "code": "as",
-      "gsCol": "autoStartPosition",
-      "type": "field_image",
-      "filename": "2023/field_image.png",
-      "clickRestriction": "one",
-      "shape": "circle 5 black red true"
-    }
   ],
   "auton": [
     { "name": "Auto Scoring",
